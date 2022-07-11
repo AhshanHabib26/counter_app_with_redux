@@ -5,6 +5,7 @@ import {
   getIncrement,
   getReset,
 } from "../StateManage/Action/Action";
+import './Counter.css'
 
 const Counter = () => {
   const count = useSelector((state) => state.count);
@@ -24,14 +25,14 @@ const Counter = () => {
   };
 
   return (
-    <div>
+    <div className="counterStyle">
       <h1>Hello! Redux Counter App</h1>
 
-      <h1>{count}</h1>
+      <h1 className="countNumber">{count}</h1>
 
-      <button onClick={hendaleIncrement}>Increment</button>
-      <button onClick={hendaleDecrement}>Decrement</button>
-      <button onClick={hendaleReset}>Reset</button>
+      <button className="inBtn" onClick={hendaleIncrement}>Increment</button>
+      <button className="deBtn" onClick={hendaleDecrement}>Decrement</button>
+      <button className="reBtn" onClick={hendaleReset}>Reset</button>
     </div>
   );
 };

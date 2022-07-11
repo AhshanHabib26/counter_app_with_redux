@@ -1,0 +1,28 @@
+.counterStyle h1{
+    font-size: 38px;
+    color: #363636;
+}
+.counterStyle .countNumber{
+    color: #767676;
+    font-size: 42px;
+    font-weight: 700;
+}
+.counterStyle button{
+    margin-right: 12px;
+    width: 120px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+.counterStyle  .inBtn{
+    background-color: #6495ed;
+}
+.counterStyle  .deBtn{
+    background-color: #333;
+}
+.counterStyle  .reBtn{
+    background-color: brown;
+}
